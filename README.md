@@ -35,7 +35,7 @@ Criar uma aplicação backend que implemente os principais conceitos de **POO**,
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/loja-api-springboot.git
+   git clone https://github.com/EduardoMotaFaria/Api-RESTfull-POO/loja-api-springboot.git
    cd loja-api-springboot
    ```
 
