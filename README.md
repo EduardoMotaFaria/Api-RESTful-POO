@@ -116,6 +116,20 @@ O projeto utiliza Swagger para documentação automática dos endpoints. A inter
   "preco": 250.00,
   "quantidade": 10
 }
+{
+  "id": 2,
+  "nome": "Mouse RGB",
+  "descricao": "Mouse Gamer, com DPI até 2000",
+  "preco": 499.99,
+  "quantidade": 130
+}
+{
+  "id": 3,
+  "nome": "Monitor 144hz",
+  "descricao": "Monitor profissional, com taxa de atualização até 144",
+  "preco": 1000.15,
+  "quantidade": 4
+}
 ```
 
 ---
