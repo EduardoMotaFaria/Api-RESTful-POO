@@ -109,9 +109,6 @@ O projeto utiliza Swagger para documentação automática dos endpoints. A inter
 ## 🧪 Exemplo de Requisição (POST)
 
 ```json
-POST /produtos
-Content-Type: application/json
-
 {
   "id": 1,
   "nome": "Teclado Gamer",
