@@ -64,8 +64,6 @@ Criar uma aplicação backend que implemente os principais conceitos de **POO**,
 ## 📌 Entidade: Produto
 
 ```java
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
 private Long id;
 
 private String nome;
