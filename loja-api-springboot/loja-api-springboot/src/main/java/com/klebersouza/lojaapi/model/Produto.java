@@ -6,25 +6,16 @@ import jakarta.persistence.*;
 @Entity
 public class Produto {
 
-    // Identificador único do produto, gerado automaticamente
+    // gera automaticamente um ID unico
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    // Nome do produto
     private String nome;
-
-    // Descrição do produto
     private String descricao;
-
-    // Preço do produto
     private Double preco;
-
-    // Quantidade disponível em estoque
     private Integer quantidade;
 
     // Getters e setters para acesso e modificação dos atributos
-
     public Long getId() {
         return id;
     }

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-// ✅ IMPORTAÇÕES para o Swagger/OpenAPI
+// importando o Swagger
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -19,7 +19,7 @@ public class ProdutoController {
     @Autowired
     private ProdutoRepository produtoRepository;
 
-    // 🔎 GET: Listar todos os produtos
+    // GET: Lista todos os produtos
     @Operation(
             summary = "Listar produtos",
             description = "Retorna todos os produtos cadastrados no banco de dados H2."
@@ -29,7 +29,7 @@ public class ProdutoController {
         return produtoRepository.findAll();
     }
 
-    // ➕ POST: Cadastrar um novo produto
+    //  POST: Cadastra um novo produto
     @Operation(
             summary = "Cadastrar produto",
             description = "Adiciona um novo produto com nome, preço e quantidade."
@@ -39,7 +39,7 @@ public class ProdutoController {
         return produtoRepository.save(produto);
     }
 
-    // ❌ DELETE: Excluir produto por ID
+    // DELETE: Exclui produto por ID
     @Operation(
             summary = "Excluir produto",
             description = "Remove um produto existente com base no ID fornecido."
@@ -49,7 +49,7 @@ public class ProdutoController {
         produtoRepository.deleteById(id);
     }
 
-    // 🔄 PUT: Atualizar produto por ID
+    //  PUT: Atualiza produto por ID
     @Operation(
             summary = "Atualizar produto",
             description = "Atualiza os dados de um produto existente (nome, preço, quantidade)."
