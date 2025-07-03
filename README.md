@@ -128,6 +128,13 @@ O projeto utiliza Swagger para documentação automática dos endpoints. A inter
   "preco": 1000.15,
   "quantidade": 4
 }
+{
+  "id": 4,
+  "nome": "Gabinete RGB",
+  "descricao": "Gabinete ventilado",
+  "preco": 599.99,
+  "quantidade": 15
+}
 ```
 
 ---
